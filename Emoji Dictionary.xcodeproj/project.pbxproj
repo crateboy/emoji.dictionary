@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		88630F332036C53000A99430 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88630F322036C53000A99430 /* AppDelegate.swift */; };
-		88630F352036C53000A99430 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88630F342036C53000A99430 /* ViewController.swift */; };
 		88630F382036C53000A99430 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88630F362036C53000A99430 /* Main.storyboard */; };
 		88630F3A2036C53000A99430 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88630F392036C53000A99430 /* Assets.xcassets */; };
 		88630F3D2036C53000A99430 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88630F3B2036C53000A99430 /* LaunchScreen.storyboard */; };
 		88630F482036C53000A99430 /* Emoji_DictionaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88630F472036C53000A99430 /* Emoji_DictionaryTests.swift */; };
 		88630F532036C53000A99430 /* Emoji_DictionaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88630F522036C53000A99430 /* Emoji_DictionaryUITests.swift */; };
+		88630F612036C74500A99430 /* EmojiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88630F602036C74500A99430 /* EmojiTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		88630F2F2036C53000A99430 /* Emoji Dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Emoji Dictionary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88630F322036C53000A99430 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		88630F342036C53000A99430 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		88630F372036C53000A99430 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		88630F392036C53000A99430 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88630F3C2036C53000A99430 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		88630F4E2036C53000A99430 /* Emoji DictionaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Emoji DictionaryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88630F522036C53000A99430 /* Emoji_DictionaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji_DictionaryUITests.swift; sourceTree = "<group>"; };
 		88630F542036C53000A99430 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88630F602036C74500A99430 /* EmojiTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				88630F322036C53000A99430 /* AppDelegate.swift */,
-				88630F342036C53000A99430 /* ViewController.swift */,
+				88630F602036C74500A99430 /* EmojiTableViewController.swift */,
 				88630F362036C53000A99430 /* Main.storyboard */,
 				88630F392036C53000A99430 /* Assets.xcassets */,
 				88630F3B2036C53000A99430 /* LaunchScreen.storyboard */,
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88630F352036C53000A99430 /* ViewController.swift in Sources */,
+				88630F612036C74500A99430 /* EmojiTableViewController.swift in Sources */,
 				88630F332036C53000A99430 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
